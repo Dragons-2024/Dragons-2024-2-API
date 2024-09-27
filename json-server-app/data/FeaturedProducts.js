@@ -1,6 +1,4 @@
 const featuredproducts = [
-  {
-    "featuredProducts": [
       {
         "id": 1,
         "name": "Portátil Lenovo ThinkPad X1 Carbon",
@@ -108,9 +106,6 @@ const featuredproducts = [
         "discount": "25",
         "image": "../assets/productos-destacados/destacado12.png",
         "slug": "/Dragons-2024-2/"
-      }
-    ]
-  }
-]  
-  
+      },
+    ];
   module.exports = featuredproducts;
