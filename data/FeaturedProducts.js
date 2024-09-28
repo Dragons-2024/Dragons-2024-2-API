@@ -5,7 +5,7 @@ const featuredproducts = [
         "normalPrice": 3599900,
         "discountPrice": 2879920,
         "discount": "20",
-        "image": "../assets/productos-destacados/destacado1.jpeg",
+        "image": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727489877/destacado1_hpq1bc.jpg",
         "slug": "/Dragons-2024-2/"
       },
       {
@@ -14,7 +14,7 @@ const featuredproducts = [
         "normalPrice": 6499000,
         "discountPrice": 3199000,
         "discount": "50",
-        "image": "../assets/productos-destacados/destacado2.png",
+        "image": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727489877/destacado2_mqnvaz.png",
         "slug": "/Dragons-2024-2/"
       },
       {
@@ -23,7 +23,7 @@ const featuredproducts = [
         "normalPrice": 6559000,
         "discountPrice": 5903100,
         "discount": "10",
-        "image": "../assets/productos-destacados/destacado3.png",
+        "image": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727489877/destacado3_g2yk2v.png",
         "slug": "/Dragons-2024-2/"
       },
       {
@@ -32,7 +32,7 @@ const featuredproducts = [
         "normalPrice": 3399000,
         "discountPrice": 3059100,
         "discount": "10",
-        "image": "../assets/productos-destacados/destacado4.png",
+        "image": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727489877/destacado4_guw8s3.png",
         "slug": "/Dragons-2024-2/"
       },
       {
@@ -41,7 +41,7 @@ const featuredproducts = [
         "normalPrice": 4999900,
         "discountPrice": 3999200,
         "discount": "20",
-        "image": "../assets/productos-destacados/destacado5.png",
+        "image": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727489877/destacado5_eta9np.png",
         "slug": "/Dragons-2024-2/"
       },
       {
@@ -50,7 +50,7 @@ const featuredproducts = [
         "normalPrice": 3039900,
         "discountPrice": 2431920,
         "discount": "20",
-        "image": "../assets/productos-destacados/destacado6.png",
+        "image": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727489877/destacado6_clllkz.png",
         "slug": "/Dragons-2024-2/"
       },
       {
@@ -59,7 +59,7 @@ const featuredproducts = [
         "normalPrice": 8993900,
         "discountPrice": 8094510,
         "discount": "10",
-        "image": "../assets/productos-destacados/destacado7.png",
+        "image": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727489877/destacado7_qj3z1v.png",
         "slug": "/Dragons-2024-2/"
       },
       {
@@ -68,7 +68,7 @@ const featuredproducts = [
         "normalPrice": 23380000,
         "discountPrice": 11690000,
         "discount": "50",
-        "image": "../assets/productos-destacados/destacado8.png",
+        "image": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727489878/destacado8_d9ac4s.png",
         "slug": "/Dragons-2024-2/"
       },
       {
@@ -77,7 +77,7 @@ const featuredproducts = [
         "normalPrice": 3900400,
         "discountPrice": 3705380,
         "discount": "5",
-        "image": "../assets/productos-destacados/destacado9.png",
+        "image": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727489877/destacado9_pbbjxh.png",
         "slug": "/Dragons-2024-2/"
       },
       {
@@ -86,7 +86,7 @@ const featuredproducts = [
         "normalPrice": 7140000,
         "discountPrice": 6426000,
         "discount": "10",
-        "image": "../assets/productos-destacados/destacado10.png",
+        "image": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727489877/destacado10_xios3m.png",
         "slug": "/Dragons-2024-2/"
       },
       {
@@ -95,7 +95,7 @@ const featuredproducts = [
         "normalPrice": 14999000,
         "discountPrice": 10499000,
         "discount": "30",
-        "image": "../assets/productos-destacados/destacado11.png",
+        "image": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727489877/destacado11_etheze.png",
         "slug": "/Dragons-2024-2/"
       },
       {
@@ -104,7 +104,7 @@ const featuredproducts = [
         "normalPrice": 11499000,
         "discountPrice": 8899000,
         "discount": "25",
-        "image": "../assets/productos-destacados/destacado12.png",
+        "image": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727489878/destacado12_fyunat.png",
         "slug": "/Dragons-2024-2/"
       },
     ];
