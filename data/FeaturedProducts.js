@@ -6,7 +6,7 @@ const featuredproducts = [
         "discountPrice": 2879920,
         "discount": "20",
         "image": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727489877/destacado1_hpq1bc.jpg",
-        "slug": "/Dragons-2024-2/"
+        "slug": "/"
       },
       {
         "id": 2,
