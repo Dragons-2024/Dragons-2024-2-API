@@ -15,10 +15,12 @@ const tablet = require("./data/tablet");
 const tv = require("./data/tv");
 const video = require("./data/video");
 const washingmachine = require("./data/washingmachine");
+const {PromotionalImages} = require("./data/PromotionalImages");
 
 module.exports = () => {
   return {
     featuredproducts,
+    PromotionalImages,  
     climatizacion: airconditioning,
     audio:audio,
     baño:bathroom,
