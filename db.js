@@ -24,7 +24,7 @@ module.exports = () => {
     PromotionalImages,  
     climatizacion: airconditioning,
     audio:audio,
-    baño:bathroom,
+    bano:bathroom,
     camara: camara,
     computador: computers,
     comedor: diningroom,
