@@ -1,24 +1,182 @@
-const computers = [
-  {
-    "nombre": "HP Pavilion 15",
-      "descripcionTecnica": "Pantalla de 15.6 pulgadas, procesador Intel i5, 8GB RAM, 256GB SSD",
-      "procesador": "Intel i5",
-      "memoriaRAM": "8 GB",
-      "disco": "256 GB SSD",
-      "precio": 3200000,
-      "imagen": "https://example.com/hp_pavilion_15.jpg",
-      "marca": "HP"
+const Computadores = [
+  {"id":1,
+    "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727753334/11_gbi0t4.png",
+    "name": "Lenovo ThinkPad X1 Carbon",
+    "rating": 5.0,
+    "features": "Intel i7, 16GB RAM, 512GB SSD",
+    "normalPrice": "$3.599.900",
+    "discountedPrice": "$2.879.200",
+    "slug": "/pdp/Portátil%20Lenovo%20ThinkPad%20X1%20Carbon",
+    "description": "El Lenovo ThinkPad X1 Carbon es un portátil ligero y duradero diseñado para profesionales que necesitan llevar su trabajo a todas partes. Con un chasis de fibra de carbono y un peso increíblemente bajo de tan solo 1.09 kg, ofrece una portabilidad sin sacrificar potencia. Equipado con un procesador Intel Core i7, 16GB de memoria RAM y un almacenamiento SSD de 1TB, garantiza un rendimiento fluido incluso en las tareas más exigentes. Su pantalla de 14 pulgadas proporciona imágenes nítidas, ideal para quienes trabajan con gráficos o necesitan leer documentos largos durante muchas horas.",
+    "details": {
+      "Procesador": "Intel Core i7",
+      "Memoria RAM": "16GB",
+      "Almacenamiento": "1TB SSD",
+      "Pantalla": "14 pulgadas",
+      "Peso": "1.09 kg"
+    }
+  },
+  {"id":2,
+    "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727753363/12_c1nlyn.png",
+    "name": "HP Spectre x360",
+    "rating": 4.5,
+    "features": "Intel i5, 8GB RAM, 256GB SSD",
+    "normalPrice": "$6.499.000",
+    "discountedPrice": "$3.199.000",
+    "slug": "/pdp/Portátil%20Gamer%20HP%20Spectre%20x360",
+    "description": "El HP Spectre x360 es un portátil premium que combina potencia y versatilidad. Con su diseño convertible de 360 grados, puede usarse tanto como portátil como tableta, ofreciendo una flexibilidad única. Ideal para creativos y gamers, cuenta con un procesador Intel Core i7, 16GB de RAM y un almacenamiento de 1TB SSD, proporcionando el rendimiento necesario para aplicaciones intensivas como edición de video, diseño gráfico y videojuegos. Su pantalla táctil de 13.3 pulgadas Full HD garantiza colores vivos y una experiencia inmersiva, mientras que su batería de hasta 15 horas asegura que puedes trabajar o jugar sin interrupciones.",
+    "details": {
+      "Procesador": "Intel Core i7",
+      "Memoria RAM": "16GB",
+      "Almacenamiento": "1TB SSD",
+      "Pantalla": "13.3 pulgadas Full HD",
+      "Batería": "Hasta 15 horas"
+    }
+  },
+  {"id":3,
+    "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727753464/13_gikrvr.png",
+    "name": "Dell XPS 13",
+    "rating": 4.0,
+    "features": "Intel i7, 16GB RAM, 1TB SSD",
+    "normalPrice": "$7.999.000",
+    "discountedPrice": "$6.499.000",
+    "slug": "/pdp/Portátil%20Dell%20XPS%2013",
+    "description": "El Dell XPS 13 es un portátil de alta gama que destaca por su diseño minimalista y sus potentes especificaciones. Con su pantalla InfinityEdge de 13.4 pulgadas, proporciona una experiencia de visualización casi sin bordes, haciendo que sea perfecto para el consumo de contenido multimedia o para aquellos que necesitan más espacio en pantalla para trabajar. Equipado con un procesador Intel Core i5, 8GB de RAM y un SSD de 512GB, ofrece un rendimiento fiable para la multitarea diaria. Además, su peso ligero de 1.2 kg lo hace ideal para profesionales que están en constante movimiento.",
+    "details": {
+      "Procesador": "Intel Core i5",
+      "Memoria RAM": "8GB",
+      "Almacenamiento": "512GB SSD",
+      "Pantalla": "13.4 pulgadas Full HD+",
+      "Peso": "1.2 kg"
+    }
+  },
+  {"id":4,
+    "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727753478/14_gpjcz7.png",
+    "name": "Apple MacBook Air",
+    "rating": 4.9,
+    "features": "Apple M1, 8GB RAM, 256GB SSD",
+    "normalPrice": "$399.000",
+    "discountedPrice": "$3.059.100",
+    "category": "Computadores",
+    "slug": "/pdp/Portátil%20Apple%20MacBook%20Air%20M1",
+    "description": "El MacBook Air M1 de Apple revoluciona el mercado con su procesador M1 de fabricación propia. Este chip no solo proporciona un rendimiento sobresaliente, sino que también mejora la eficiencia energética, ofreciendo hasta 18 horas de batería en un uso continuo. Ideal tanto para estudiantes como para profesionales, su diseño ultradelgado y liviano lo convierte en el portátil perfecto para llevar a cualquier lugar. Con su pantalla Retina de 13.3 pulgadas, ofrece colores vibrantes y detalles nítidos, ideal para trabajos gráficos o disfrutar de contenido multimedia de alta calidad.",
+    "details": {
+      "Procesador": "Apple M1",
+      "Memoria RAM": "8GB",
+      "Almacenamiento": "256GB SSD",
+      "Pantalla": "13.3 pulgadas Retina",
+      "Batería": "Hasta 18 horas"
+    }
+  },
+  {"id":5,
+    "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727753490/15_dbwxdg.png",
+    "name": "Asus ZenBook 14",
+    "rating": 4.6,
+    "features": "AMD Ryzen 7, 16GB RAM, 512GB SSD",
+    "normalPrice": "$4.999.000",
+    "discountedPrice": "$3.999.200",
+    "category": "Computadores",
+    "slug": "/pdp/Portátil%20Asus%20ZenBook%2014",
+    "description": "El Asus ZenBook 14 es la combinación perfecta de rendimiento, estilo y portabilidad. Con un diseño ultra delgado y un peso de tan solo 1.13 kg, este portátil es ideal para quienes están en constante movimiento y necesitan un dispositivo fiable y poderoso. Equipado con un procesador AMD Ryzen 7, 16GB de RAM y un SSD de 512GB, garantiza un rendimiento fluido incluso con múltiples aplicaciones abiertas. Su pantalla de 14 pulgadas Full HD ofrece una excelente calidad de imagen, lo que lo convierte en una opción ideal tanto para el trabajo como para el entretenimiento.",
+    "details": {
+      "Procesador": "AMD Ryzen 7",
+      "Memoria RAM": "16GB",
+      "Almacenamiento": "512GB SSD",
+      "Pantalla": "14 pulgadas Full HD",
+      "Peso": "1.13 kg"
+    }
+  },
+  {"id":6,
+    "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727753503/16_eflo8v.png",
+    "name": "Acer Swift 3",
+    "rating": 4.3,
+    "features": "Intel i5, 8GB RAM, 512GB SSD",
+    "normalPrice": "$3.039.920",
+    "discountedPrice": "$2.431.920",
+    "category": "Computadores",
+    "slug": "/pdp/Portátil%20Acer%20Swift%203",
+    "description": "El Acer Swift 3 es un portátil asequible y potente, ideal para estudiantes y profesionales que buscan un equilibrio entre rendimiento y precio. Con un procesador Intel Core i5 de última generación, 8GB de RAM y 256GB SSD, ofrece una experiencia de uso rápida y eficiente, permitiendo realizar múltiples tareas con fluidez. Su pantalla de 14 pulgadas Full HD proporciona una experiencia visual clara, mientras que su diseño ligero lo hace fácil de transportar. Además, cuenta con una batería de larga duración que proporciona hasta 11 horas de uso continuo, lo que lo convierte en un compañero fiable para el día a día.",
+    "details": {
+      "Procesador": "Intel Core i5",
+      "Memoria RAM": "8GB",
+      "Almacenamiento": "256GB SSD",
+      "Pantalla": "14 pulgadas Full HD",
+      "Batería": "Hasta 11 horas"
+    }
+  },
+  {"id":7,
+    "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727753515/17_qvjhxf.png",
+    "name": "Microsoft Surface Laptop 4",
+    "rating": 4.7,
+    "features": "Intel i5, 8GB RAM, 256GB SSD",
+    "normalPrice": "$8.993.900",
+    "discountedPrice": "$8.094.510",
+    "category": "Computadores",
+    "slug": "/pdp/Portátil%20Microsoft%20Surface%20Laptop%204",
+    "description": "El Microsoft Surface Laptop 4 es un dispositivo elegante que combina estilo y funcionalidad, ideal para quienes buscan un portátil que destaque tanto en diseño como en rendimiento. Con un procesador Intel Core i7, 16GB de RAM y 512GB SSD, este portátil ofrece una capacidad multitarea impresionante y un rendimiento sobresaliente para aplicaciones profesionales. Su pantalla de 13.5 pulgadas PixelSense ofrece una calidad visual vibrante, ideal para la edición de imágenes, videos o simplemente disfrutar de contenido multimedia en alta resolución. Con una batería que puede durar hasta 17 horas, es una opción ideal para los profesionales que necesitan productividad todo el día.",
+    "details": {
+      "Procesador": "Intel Core i7",
+      "Memoria RAM": "16GB",
+      "Almacenamiento": "512GB SSD",
+      "Pantalla": "13.5 pulgadas PixelSense",
+      "Batería": "Hasta 17 horas"
+    }
+  },
+  {"id":8,
+    "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727753549/18_dmiamn.png",
+    "name": "Razer Blade 15",
+    "rating": 4.8,
+    "features": "Intel i7, 16GB RAM, 1TB SSD",
+    "normalPrice": "$23.380.000",
+    "discountedPrice": "$11.690.000",
+    "category": "Computadores",
+    "slug": "/pdp/Portátil%20Razer%20Blade%2015",
+    "description": "El Razer Blade 15 es uno de los portátiles gaming más potentes del mercado, diseñado para gamers exigentes y profesionales creativos. Con un procesador Intel Core i7 de última generación, 32GB de RAM y un SSD de 1TB, ofrece un rendimiento ultrarrápido para juegos y edición de contenido. Su pantalla de 15.6 pulgadas QHD con una tasa de refresco de 240Hz proporciona una experiencia visual fluida y envolvente. Equipado con una tarjeta gráfica NVIDIA GeForce RTX 3080, este portátil puede manejar los juegos más intensivos gráficamente y tareas creativas pesadas como el renderizado de video y la animación en 3D.",
+    "details": {
+      "Procesador": "Intel Core i7",
+      "Memoria RAM": "32GB",
+      "Almacenamiento": "1TB SSD",
+      "Pantalla": "15.6 pulgadas QHD 240Hz",
+      "GPU": "NVIDIA GeForce RTX 3080"
+    }
+  },
+  {"id":9,
+    "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727753564/19_mjvmhk.png",
+    "name": "HP Envy x360",
+    "rating": 4.5,
+    "features": "AMD Ryzen 5, 8GB RAM, 512GB SSD",
+    "normalPrice": "$3.900.400",
+    "discountedPrice": "$3.705.380",
+    "category": "Computadores",
+    "slug": "/pdp/Portátil%20HP%20Envy%20x360",
+    "description": "El HP Envy x360 es un portátil convertible que se adapta a todas tus necesidades, ya sea para trabajar, dibujar o ver contenido multimedia. Equipado con un procesador AMD Ryzen 5, 8GB de RAM y 512GB SSD, ofrece un rendimiento rápido y confiable para todo tipo de tareas. Su pantalla táctil de 15.6 pulgadas Full HD es perfecta para el uso creativo, permitiendo dibujar y escribir directamente sobre la pantalla. Con un diseño elegante y una duración de batería de hasta 12 horas, este portátil es ideal para aquellos que necesitan un dispositivo que combine productividad y creatividad en cualquier lugar.",
+    "details": {
+      "Procesador": "AMD Ryzen 5",
+      "Memoria RAM": "8GB",
+      "Almacenamiento": "512GB SSD",
+      "Pantalla": "15.6 pulgadas Full HD",
+      "Batería": "Hasta 12 horas"
+    }
   },
   {
-    "nombre": "HP Pavilion 15",
-      "descripcionTecnica": "Pantalla de 15.6 pulgadas, procesador Intel i5, 8GB RAM, 256GB SSD",
-      "procesador": "Intel i5",
-      "memoriaRAM": "8 GB",
-      "disco": "256 GB SSD",
-      "precio": 3200000,
-      "imagen": "https://example.com/hp_pavilion_15.jpg",
-      "marca": "HP"
+    "id":10,
+    "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727753576/20_m3oazn.png",
+    "name": "LG Gram 17",
+    "rating": 4.7,
+    "features": "Intel i7, 16GB RAM, 1TB SSD",
+    "normalPrice": "$7.140.000",
+    "discountedPrice": "$6.426.000",
+    "category": "Computadores",
+    "slug": "/pdp/Portátil%20LG%20Gram%2017",
+    "description": "El LG Gram 17 redefine lo que significa trabajar en movimiento. Con su pantalla de 17 pulgadas WQXGA y un peso de solo 1.35 kg, este portátil ofrece una experiencia visual impresionante y una portabilidad inigualable. Equipado con un procesador Intel Core i7, 16GB de RAM y 1TB SSD, proporciona una potencia suficiente para tareas profesionales y creativas. Su batería de larga duración asegura hasta 19.5 horas de uso continuo, lo que lo convierte en el compañero perfecto para largas jornadas de trabajo fuera de la oficina. Además, su diseño robusto y ultraligero es ideal para profesionales que viajan constantemente.",
+    "details": {
+      "Procesador": "Intel Core i7",
+      "Memoria RAM": "16GB",
+      "Almacenamiento": "1TB SSD",
+      "Pantalla": "17 pulgadas WQXGA",
+      "Peso": "1.35 kg"
+    },
   }
 ];
 
-module.exports = computers;
+module.exports = Computadores;
