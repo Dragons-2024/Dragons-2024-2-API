@@ -185,7 +185,7 @@ const featuredproducts = [
     "normalPrice": 14999000,
     "discountPrice": 10499000,
     "discount": "30",
-    "image": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727489877/destacado11_etheze.png",
+    "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727489877/destacado11_etheze.png",
     "slug": "/pdp/Portátil%20ASUS%20ROG%20Zephyrus%20G16",
     "description": "El ASUS ROG Zephyrus G16 es un portátil gaming de alta gama diseñado para jugadores y creadores de contenido que buscan el máximo rendimiento en un equipo portátil. Con un procesador Intel Core i9 de última generación, gráficos NVIDIA GeForce RTX 3070 y 16GB de RAM, este dispositivo puede manejar los juegos más exigentes y las aplicaciones creativas pesadas. Su pantalla de 16 pulgadas QHD con una frecuencia de actualización de 165Hz ofrece una experiencia de juego fluida y envolvente. Además, su diseño delgado y ligero lo hace fácil de transportar, sin sacrificar la potencia ni la duración de la batería, que puede llegar hasta las 10 horas.",
     "details": {
@@ -202,7 +202,7 @@ const featuredproducts = [
     "normalPrice": 11499000,
     "discountPrice": 8899000,
     "discount": "25",
-    "image": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727489878/destacado12_fyunat.png",
+    "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727489878/destacado12_fyunat.png",
     "slug": "/pdp/Portátil%20Asus%20ROG%20Strix%20G16",
     "description": "El Asus ROG Strix G16 es un portátil gaming diseñado para los jugadores que buscan un equipo potente y fiable. Equipado con un procesador Intel Core i7, gráficos NVIDIA GeForce RTX 3060 y 16GB de RAM, este portátil ofrece un rendimiento increíble en los juegos más recientes y exigentes. Su pantalla de 16 pulgadas Full HD con una frecuencia de actualización de 144Hz asegura una experiencia de juego rápida y sin interrupciones. Con un diseño robusto y estilizado, el ROG Strix G16 no solo es una máquina potente, sino también un equipo que destaca en estética y funcionalidad, proporcionando hasta 8 horas de batería para sesiones de juego prolongadas.",
     "details": {
