@@ -25,7 +25,7 @@ module.exports = () => {
     climatizacion: airconditioning,
     audio:audio,
     bano:bathroom,
-    camaras: camara,
+    camara: camara,
     computadores: computers,
     comedor: diningroom,
     cocina: kitchen,
