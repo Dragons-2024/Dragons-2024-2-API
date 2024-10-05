@@ -31,7 +31,7 @@ const filterSmartwatch= require("./data/FilterSmartwatch");
 const filterTablet= require("./data/FilterTablet");
 const filtertv =require("./data/FilterTv");
 const filtervideo =require("./data/filtervideo");
-const filterwash =require("./data/FilterWashingMachine");
+const filterwash =require("./data/FilterWashingmachine");
 
 module.exports = () => {
   return {
