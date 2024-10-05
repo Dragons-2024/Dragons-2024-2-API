@@ -16,7 +16,22 @@ const tv = require("./data/tv");
 const video = require("./data/video");
 const washingmachine = require("./data/washingmachine");
 const PromotionalImages = require("./data/PromotionalImages");
-
+const filterairconditioning = require("./data/filterairconditioning");
+const filteraudio = require("./data/filteraudio");
+const filterBathroom= require("./data/FilterBathroom");
+const filterCamara = require("./data/FilterCamara");
+const filterComputers = require("./data/FilterComputers");
+const filterDinningRoom = require("./data/FilterDiningRoom");
+const filterKitchen = require("./data/FilterKitchen");
+const filterLivingRoom = require("./data/FilterLivingRoom");
+const filterPhone= require("./data/FilterPhone");
+const filterPrinter= require("./data/FilterPrinter");
+const filterRefrigeration= require("./data/FilterRefrigeration");
+const filterSmartwatch= require("./data/FilterSmartwatch");
+const filterTablet= require("./data/FilterTablet");
+const filtertv =require("./data/FilterTv");
+const filtervideo =require("./data/filtervideo");
+const filterwash =require("./data/FilterWashingMachine");
 
 module.exports = () => {
   return {
@@ -38,5 +53,23 @@ module.exports = () => {
     televisores: tv,
     video: video,
     LavadorasSecadoras: washingmachine,
+    Filtroclimatizacion: filterairconditioning,
+    Filtroaudio: filteraudio,
+    Filtrobano: filterBathroom,
+    Filtrocamara: filterCamara,
+    Filtrocomputadores: filterComputers,
+    Filtrocomedor: filterDinningRoom,
+    Filtrococina: filterKitchen,
+    FiltroSala: filterLivingRoom,
+    Filtroimpresion: filterPrinter,
+    Filtrorefrigeracion: filterRefrigeration,
+    Filtrosmartwatch: filterSmartwatch,
+    Filtrotabletas: filterTablet,
+    Filtrotelevisores: filtertv,
+    Filtrovideo: filtervideo,
+    FiltroLavadorasSecadoras: filterwash,
+    Filtrocelular: filterPhone,
+
   };
 };
+
