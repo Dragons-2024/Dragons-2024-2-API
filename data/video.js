@@ -2,7 +2,7 @@ const Video = [
   {
     "id": 1,
     "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727762349/161_gbbfhs.png",
-    "name": "Canon%EOS%R5",
+    "name": "Canon EOS R5",
     "rating": 5.0,
     "features": "Cámara sin espejo, 45 MP, 8K video",
     "normalPrice": "$3.999.900",
@@ -21,7 +21,7 @@ const Video = [
   {
     "id": 2,
     "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727762359/162_izodfc.png",
-    "name": "Sony%A7%III",
+    "name": "Sony A7 III",
     "rating": 4.5,
     "features": "Cámara sin espejo, 24 MP, 4K video",
     "normalPrice": "$2.499.000",
@@ -40,7 +40,7 @@ const Video = [
   {
     "id": 3,
     "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727762362/163_qhtp0g.png",
-    "name": "Panasonic%Lumix%GH5",
+    "name": "Panasonic Lumix GH5",
     "rating": 4.0,
     "features": "Cámara sin espejo, 20 MP, 4K video",
     "normalPrice": "$1.999.000",
@@ -59,7 +59,7 @@ const Video = [
   {
     "id": 4,
     "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727762352/164_i60fyc.png",
-    "name": "GoPro%HERO9%Black",
+    "name": "GoPro HERO9 Black",
     "rating": 4.9,
     "features": "Cámara de acción, 5K video, HyperSmooth 3.0",
     "normalPrice": "$499.000",
@@ -78,7 +78,7 @@ const Video = [
   {
     "id": 5,
     "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727762365/165_ughhzr.png",
-    "name": "DJI%Osmo%Pocket",
+    "name": "DJI Osmo Pocket",
     "rating": 4.6,
     "features": "Cámara de bolsillo, 4K video, estabilizador",
     "normalPrice": "$349.000",
@@ -97,7 +97,7 @@ const Video = [
   {
     "id": 6,
     "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727762367/166_x0euio.png",
-    "name": "Blackmagic%Pocket%Cinema%Camera%6K",
+    "name": "Blackmagic Pocket Cinema Camera 6K",
     "rating": 4.3,
     "features": "Cámara de cine, 6K video, sensor Super 35",
     "normalPrice": "$2.499.920",
@@ -116,7 +116,7 @@ const Video = [
   {
     "id": 7,
     "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727762370/167_skpvkf.png",
-    "name": "Canon%VIXIA%HF%G50",
+    "name": "Canon VIXIA HF G50",
     "rating": 4.7,
     "features": "Videocámara, 4K video, zoom óptico 20x",
     "normalPrice": "$1.399.900",
@@ -135,7 +135,7 @@ const Video = [
   {
     "id": 8,
     "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727762356/168_amzjui.png",
-    "name": "Sony%FDR-AX43",
+    "name": "Sony FDR-AX43",
     "rating": 4.8,
     "features": "Videocámara, 4K video, estabilizador óptico",
     "normalPrice": "$1.380.000",
@@ -154,7 +154,7 @@ const Video = [
   {
     "id": 9,
     "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727762373/169_pavta4.png",
-    "name": "Panasonic%HC-VX981K",
+    "name": "Panasonic HC-VX981K",
     "rating": 4.5,
     "features": "Videocámara, 4K video, zoom óptico 20x",
     "normalPrice": "$899.400",
@@ -173,7 +173,7 @@ const Video = [
   {
     "id": 10,
     "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727762376/170_wgwxht.png",
-    "name": "JVC%Everio%GZ-R460",
+    "name": "JVC Everio GZ-R460",
     "rating": 4.7,
     "features": "Videocámara, Full HD, resistente al agua",
     "normalPrice": "$740.000",

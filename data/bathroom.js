@@ -16,7 +16,7 @@ const Bano = [
       "Color": "Plateado"
     },
     "slug": "/pdp/Toallero%20Eléctrico",
-    "category": "Banos"
+    "category": "Bano"
   },
   {
     "id": 2,
@@ -35,7 +35,7 @@ const Bano = [
       "Color": "Plateado"
     },
     "slug": "/pdp/Espejo%20con%20Luz%20LED",
-    "category": "Banos"
+    "category": "Bano"
   },
   {
     "id": 3,
@@ -54,7 +54,7 @@ const Bano = [
       "Color": "Cromado"
     },
     "slug": "/pdp/Ducha%20Termostática",
-    "category": "Banos"
+    "category": "Bano"
   },
   {
     "id": 4,
@@ -73,7 +73,7 @@ const Bano = [
       "Color": "Blanco"
     },
     "slug": "/pdp/Dispensador%20de%20Jabón%20Automático",
-    "category": "Banos"
+    "category": "Bano"
   },
   {
     "id": 5,
@@ -92,7 +92,7 @@ const Bano = [
       "Lavable": "Sí"
     },
     "slug": "/pdp/Alfombra%20de%20Baño%20Antideslizante",
-    "category": "Banos"
+    "category": "Bano"
   },
   {
     "id": 6,
@@ -111,7 +111,7 @@ const Bano = [
       "Lavable": "Sí"
     },
     "slug": "/pdp/Cortina%20de%20Ducha%20Impermeable",
-    "category": "Banos"
+    "category": "Bano"
   },
   {
     "id": 7,
@@ -130,7 +130,7 @@ const Bano = [
       "Diseño": "Moderno"
     },
     "slug": "/pdp/Set%20de%20Accesorios%20de%20Baño",
-    "category": "Banos"
+    "category": "Bano"
   },
   {
     "id": 8,
@@ -149,7 +149,7 @@ const Bano = [
       "Color": "Plateado"
     },
     "slug": "/pdp/Organizador%20de%20Ducha",
-    "category": "Banos"
+    "category": "Bano"
   },
   {
     "id": 9,
@@ -168,7 +168,7 @@ const Bano = [
       "Color": "Blanco"
     },
     "slug": "/pdp/Inodoro%20Inteligente",
-    "category": "Banos"
+    "category": "Bano"
   },
   {
     "id": 10,
@@ -187,7 +187,7 @@ const Bano = [
       "Color": "Cromado"
     },
     "slug": "/pdp/Grifo%20de%20Lavabo%20Cascada",
-    "category": "Banos"
+    "category": "Bano"
   }
 ];
 
