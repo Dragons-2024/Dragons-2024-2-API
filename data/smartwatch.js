@@ -2,7 +2,7 @@ const Smartwatch = [
   {
     "id": 1,
     "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727761857/131_ffhmxy.png",
-    "name": "Apple%Watch%Series%6",
+    "name": "Apple Watch Series 6",
     "rating": 5.0,
     "features": "GPS, 44mm, Caja de Aluminio",
     "normalPrice": "$1.299.900",
@@ -21,7 +21,7 @@ const Smartwatch = [
   {
     "id": 2,
     "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727761866/132_bvf3kz.png",
-    "name": "Samsung%Galaxy%Watch%4",
+    "name": "Samsung Galaxy Watch 4",
     "rating": 4.5,
     "features": "GPS, 40mm, Caja de Aluminio",
     "normalPrice": "$899.000",
@@ -40,7 +40,7 @@ const Smartwatch = [
   {
     "id": 3,
     "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727761860/133_xwg9lp.png",
-    "name": "Fitbit%Versa%3",
+    "name": "Fitbit Versa 3",
     "rating": 4.0,
     "features": "GPS, Monitor de Ritmo Cardíaco",
     "normalPrice": "$599.000",
@@ -59,7 +59,7 @@ const Smartwatch = [
   {
     "id": 4,
     "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727761872/134_k18rr5.png",
-    "name": "Garmin%Forerunner%245",
+    "name": "Garmin Forerunner 245",
     "rating": 4.9,
     "features": "GPS, Monitor de Ritmo Cardíaco",
     "normalPrice": "$799.000",
@@ -78,7 +78,7 @@ const Smartwatch = [
   {
     "id": 5,
     "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727761874/135_yqi1sb.png",
-    "name": "Huawei%Watch%GT%2",
+    "name": "Huawei Watch GT 2",
     "rating": 4.6,
     "features": "GPS, Monitor de Ritmo Cardíaco",
     "normalPrice": "$1.499.000",
@@ -97,7 +97,7 @@ const Smartwatch = [
   {
     "id": 6,
     "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727761864/136_holsno.png",
-    "name": "Amazfit%Bip%U%Pro",
+    "name": "Amazfit Bip U Pro",
     "rating": 4.3,
     "features": "GPS, Monitor de Ritmo Cardíaco",
     "normalPrice": "$1.039.920",
@@ -116,18 +116,18 @@ const Smartwatch = [
   {
     "id": 7,
     "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727761877/137_d8hd3f.png",
-    "name": "TicWatch%Pro%3",
+    "name": "TicWatch Pro 3",
     "rating": 4.7,
     "features": "GPS, Monitor de Ritmo Cardíaco",
     "normalPrice": "$1.199.900",
-    "discountedPrice": "$959.510",
-    "description": "El TicWatch Pro 3 es un reloj inteligente potente que combina estilo y tecnología avanzada. Con su sistema operativo Wear OS, ofrece acceso a una variedad de aplicaciones y funcionalidades. Su diseño robusto es ideal para actividades al aire libre, y su doble pantalla garantiza una duración de batería excepcional. El GPS integrado y el monitor de ritmo cardíaco permiten un seguimiento preciso de tus entrenamientos. Además, cuenta con funciones de salud y bienestar que te ayudan a mantener un estilo de vida activo. Es una opción perfecta para quienes buscan un smartwatch versátil y duradero.",
+    "discountedPrice": "$959.900",
+    "description": "El TicWatch Pro 3 es un reloj inteligente de alta gama que destaca por su diseño robusto y su doble pantalla. Con una batería que puede durar hasta 72 horas en modo inteligente y hasta 45 días en modo esencial, este smartwatch es perfecto para quienes buscan durabilidad. Incluye GPS integrado, monitor de ritmo cardíaco y otras características avanzadas para el seguimiento de la salud y el fitness. Además, su conectividad con Google Wear OS permite acceder a una gran variedad de aplicaciones y servicios, ofreciendo una experiencia personalizada y eficiente.",
     "details": {
       "Resolución": "454 x 454 píxeles",
       "Tipo de Caja": "Acero Inoxidable",
       "Tamaño de Pantalla": "1.4 pulgadas",
       "Conectividad": "GPS, Bluetooth y Wi-Fi",
-      "Duración de Batería": "Hasta 72 horas"
+      "Duración de Batería": "Hasta 72 horas en modo inteligente"
     },
     "slug": "/pdp/ticwatch%pro%3",
     "category":"Smartwatch"
@@ -135,7 +135,7 @@ const Smartwatch = [
   {
     "id": 8,
     "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727761879/138_uc6bjx.png",
-    "name": "Fossil%Gen%5",
+    "name": "Fossil Gen 5",
     "rating": 4.8,
     "features": "GPS, Monitor de Ritmo Cardíaco",
     "normalPrice": "$1.380.000",
@@ -154,7 +154,7 @@ const Smartwatch = [
   {
     "id": 9,
     "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727761882/139_rgtkt1.png",
-    "name": "Withings%Steel%HR",
+    "name": "Withings Steel HR",
     "rating": 4.5,
     "features": "Monitor de Ritmo Cardíaco",
     "normalPrice": "$1.400.400",
@@ -173,7 +173,7 @@ const Smartwatch = [
   {
     "id": 10,
     "img": "https://res.cloudinary.com/dgdcjwkyx/image/upload/v1727761869/140_wpr1e4.png",
-    "name": "Suunto%7",
+    "name": "Suunto 7",
     "rating": 4.7,
     "features": "GPS, Monitor de Ritmo Cardíaco",
     "normalPrice": "$740.000",
